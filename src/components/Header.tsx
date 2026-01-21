@@ -5,7 +5,7 @@ const Header = () => {
     
     <header className="bg-gray-500 dark:bg-gray-900 pt-10">
         <div className=''>
-          <h1 className='text-4xl font-bold text-center'>Shadi Waley</h1>
+          <h1 className='text-4xl font-bold text-center'>Shadi Waaley</h1>
         </div>
     </header>
 
