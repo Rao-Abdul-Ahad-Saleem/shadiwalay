@@ -112,9 +112,9 @@ export default function Home() {
           </div>
           <div className="pt-6">
             <div className="mb-4 flex items-center justify-between gap-4">
-              <span className="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">
+              {/* <span className="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">
                 {product.discount}
-              </span>
+              </span> */}
               <div className="flex items-center justify-end gap-1">
                 {/* Action Buttons (Quick look & Favorites) */}
                 <button type="button" className="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
@@ -135,7 +135,7 @@ export default function Home() {
               {product.title}
             </a>
 
-            <div className="mt-2 flex items-center gap-2">
+            {/* <div className="mt-2 flex items-center gap-2">
               <div className="flex items-center">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="h-4 w-4 text-yellow-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
@@ -145,13 +145,13 @@ export default function Home() {
               </div>
               <p className="text-sm font-medium text-gray-900 dark:text-white">{product.rating}</p>
               <p className="text-sm font-medium text-gray-500 dark:text-gray-400">({product.reviews})</p>
-            </div>
+            </div> */}
 
-            <div className="mt-4 flex items-center justify-between gap-4">
+            {/* <div className="mt-4 flex items-center justify-between gap-4">
               <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">
                 {product.price}
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       ))}
