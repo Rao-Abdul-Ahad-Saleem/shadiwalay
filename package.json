@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint"
   },
+  
   "dependencies": {
     "@tailwindplus/elements": "^1.0.22",
     "next": "16.1.1",
